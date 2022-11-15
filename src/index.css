@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cal-btn {
+  @apply bg-red-50 col-span-1 aspect-square
+           flex justify-center items-center
+           rounded-full shadow-md cursor-pointer
+           hover:bg-red-100 hover:text-gray-800
+           active:translate-y-1
+           text-xl font-bold
+           select-none
+}
+
+.cal-btn-2 {
+  @apply col-span-2 aspect-auto 
+}
