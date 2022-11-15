@@ -82,7 +82,7 @@ function App() {
   return (
     <div className="App">
       <div className="flex justify-center items-center min-h-screen bg-slate-500">
-        <div className="max-w-5xl mx-auto bg-gray-200 py-6 px-8 rounded-3xl shadow-2xl">
+        <div className="max-w-5xl mx-6 md:mx-auto bg-gray-200 py-6 px-8 rounded-3xl shadow-2xl">
           <h1 className="text-5xl font-bold font-mono mb-4 text-center">Calculator</h1>
           <div className="relative overflow-hidden">
             <img 
@@ -92,7 +92,7 @@ function App() {
               />
             <p className="absolute top-1/2 right-0 pr-5 -translate-y-1/2 text-5xl text-slate-800 font-bold">{sum}</p>
             </div>
-            <div className="grid grid-cols-4 text-center align-center my-4 gap-x-8 gap-y-4">
+            <div className="grid grid-cols-4 text-center align-center my-4 gap-x-4 gap-y-2 md:gap-x-6 md:gap-y-3">
               <div className="cal-btn" onClick={resetPress} data-value="AC">AC</div>
               <div className="cal-btn" onClick={reverseSign} data-value="+/-">+/-</div>
               <div className="cal-btn" onClick={operationPress} data-value="%">%</div>
